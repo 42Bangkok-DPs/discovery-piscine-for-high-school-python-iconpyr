@@ -1,5 +1,7 @@
-x = input('What you gotta say? : ')
+x = str(input('What you gotta say? : '))
 
-while not x == 'STOP':
-    print('I got that! Anything else? : ') 
-    x = input()
+while x != "":
+    x = str(input("I got that! Anythinf else : "))
+
+    if x == "STOP":
+        break
